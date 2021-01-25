@@ -1,0 +1,425 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+button {
+	border: none;
+	background: none;
+	outline: none;
+}
+
+.quti {
+	width: 1250px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*sayt boshlangan qismi*/
+.sayt {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 18px 100px;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.sayt-1 {
+	padding: 16px;
+	color: #000;
+	font-size: 15px;
+}
+
+.sayt-1:hover {
+	border-bottom: 2px solid #191919;
+}
+
+.sayt-1:active {
+	border: none;
+	background: #191919;
+	color: #fff;
+	opacity: 0.7;
+}
+
+.hozir {
+	border-bottom: 2px solid #191919;
+}
+
+.telefon-nomer {
+	padding: 8px 16px;
+	background: #00BAFC;
+	border-radius: 5px;
+	color: white;
+	border: 2px solid transparent;
+}
+
+.telefon-nomer:hover {
+	color: #00BAFC;
+	border: 2px solid #00BAFC;
+	background: inherit;
+}
+
+.telefon-nomer:active {
+	color: white;
+	background: #00BAFC;
+	border: 2px solid transparent;
+	opacity: 0.7;
+}
+
+
+
+/*sayt tugadi*/
+
+/*header qismi boshlanishi*/
+
+.header-text {
+	margin-right: 122px;
+}
+
+.header-text h1 {
+	margin-top: 10px;
+	width: 470px;
+	font-weight: bold;
+	font-size: 30px;
+	margin-bottom: 16px;
+	line-height: 130%;
+}
+
+.header-text p {
+	width: 465px;
+	margin-bottom: 16px;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.header {
+	display: flex;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 97px;
+	padding-bottom: 97px;
+}
+
+.xizmatlar {
+	padding: 8px 16px;
+	background: #00BAFC;
+	border-radius: 5px;
+	color: white;
+}
+
+.xizmatlar:hover {
+	opacity: 0.8;
+}
+
+.xizmatlar:active {
+	opacity: 0.5;
+}
+
+/*header qismi  shu yerda tugashi */
+
+/*xizmatlar qismining boshlanishi*/
+
+.xizmatlar-sahifasi {
+}
+
+.xizmatlar-qilish-sahifasi {
+	text-align: center;
+	width: 719px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.xizmat {
+	display: flex;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 48px;
+	margin-top: 24px;
+}
+
+.xizmat-menyusi {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 300px;
+	height: 260px;
+	padding: 24px;
+	background: #FFFFFF;
+	box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	margin-right: 70px;
+}
+
+.xizmat-menyusi:hover {
+	background: #FFFFFF;
+	box-shadow: 0px 12px 21px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+}
+
+.xizmat-menyusi:active {
+	background: #FFFFFF;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+}
+
+.xizmat-menyusi:first-child {
+	margin-left: 50px;
+}
+
+.xizmat-menyusi-2 {
+	display: flex;
+	justify-content: center;
+}
+
+.xizmat-3 {
+	margin-top: 40px;
+	margin-bottom: 167px;
+	text-align: center;
+}
+
+.xizmat-menyusi h3, p {
+	margin: 0;
+	padding: 0;
+	margin: 13px 0px;
+}
+
+.ishlemiz {
+	margin-right: 10px;	
+}
+
+.buyurtma-xizmatlar {
+	text-decoration: underline;
+	color: #00BAFC;
+}
+
+.buyurtma-xizmatlar:hover {
+	opacity: 0.7;
+}
+
+.buyurtma-xizmatlar:active {
+	opacity: 0.5;
+}
+
+/*Xizmatlar qismining yakunlanishi*/
+
+/*biz qanday ishlaymiz qismining boshlanishi */
+
+.ishlash-sahifasi {
+	text-align: center;
+	width: 719px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 16px;
+}
+
+.ishlash-qismi {
+	width: 825px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+.ishlash-predmeti {
+	display: flex;
+	align-items: center;
+	margin-bottom: 48px;
+}
+
+.ishlash-predmeti h3 {
+	font-size: 20px;
+}
+
+.ishlash-predmeti p {
+	font-size: 16px;
+}
+
+
+.predmet-left-text {
+	margin-left: 32px;
+}
+
+.buyurtma-2 {
+	margin-bottom: 56px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: 330px;
+
+}
+
+/*Biz qanday ishlaymiz qismining yakuni */
+
+/*Buyurtma berish qismining boshlanishi */
+
+.buyurtma-berish-qism {
+	margin-top: 56px;
+	padding: 56px;
+	background-color: #00BAFC;
+	color: white;
+	text-align: center;
+}
+
+.buyurtma-text-info {
+	width: 719px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.buyurtma-text-info p {
+	font-size: 16px;
+	line-height: 150%;
+	margin-bottom: 16px;
+}
+
+input, select {
+	padding: 16px;
+	border: none;
+	color: black;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/*justify-content: center;*/
+	background-color: white;
+	padding-top: 25px;
+	width: 348px;
+	height: 320px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	color: black;
+}
+
+input, select {
+	width: 300px;
+	height: 56px;
+	margin: 8px;
+	background: #F3F3F3;
+	border-radius: 5px;
+}
+
+.buyurtma-3 {
+	width: 167px;
+	height: 40px;
+}
+
+::placeholder { 
+  color: black;
+  opacity: 1; 
+}
+
+/*Buyurtma berish qismining tugashi */
+
+/*Footer qisming boshlanishi*/
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	background: #191919;
+	color: white;
+	padding-top: 56px;
+	padding-left: 150px;
+
+	padding-bottom: 50px;
+}
+
+.copyright {
+	width: 320px;
+	margin-right: 100px;
+}
+
+.copyright p {
+	font-size: 16px;
+	line-height: 150%;
+	color: #FFFFFF;
+	opacity: 0.8;
+}
+
+.copyright h3 {
+	font-size: 20px;
+	line-height: 130%;
+}
+
+.sitenavigation {
+	margin-right: 87px;
+	color: white;
+}
+
+.sitenavigation a {
+	color: white;
+	opacity: 0.9;	
+}
+
+.sitenavigation a:hover {
+	color: #00BAFC;
+}
+
+.sitenavigation a:active {
+	opacity: 0.6;
+}
+
+.sayt-2 {
+	margin-top: 16px;
+	margin-bottom: 8px;
+}
+
+.footer-predment {
+	display: flex;
+}
+
+.footer-predment ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.social-accounts {
+
+}
+
+.account-list {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.account-list li> img {
+	margin-top: 10px;
+	margin-right: 15px;
+}
+
+.accountlist-a {
+	color: white;
+	opacity: 0.9;
+}
+
+.accountlist-a:hover {
+	color: #00BAFC;
+}
+
+.accountlist-a:active {
+	opacity: 0.6;
+}
